@@ -16,11 +16,6 @@ Push changes from a local repo into this environment using the pod NAME from the
 
     oc rsync --exclude='node_modules*' . YOUR_PODNAME:
 
-Use gulp to automatically publish updates your remotely-hosted container as you work:
-
-    PODNAME=YOUR_PODNAME gulp
-
-The included [`gulpfile`](https://github.com/ryanj/pillar-base/blob/master/gulpfile.js) example will automatically distribute changes from your local `index.html` file into the identified pod.
 
 # Local Development
 Install dependencies:
