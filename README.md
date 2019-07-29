@@ -6,7 +6,7 @@ Use [vagrant](http://openshift.org/vm) or [ansible](https://github.com/openshift
 
 Build and deploy the application from the command line using the `oc` command line tool, and a nodejs builder image:
 
-    oc new-app openshift/nodejs~https://github.com/ryanj/pillar-base
+    oc new-app openshift/nodejs~https://github.com/impupindersingh/ocm
 
 After your deployment has completed, find the pod NAME for your hosted container:
 
