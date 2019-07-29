@@ -1,0 +1,25 @@
+{
+  "name": "pupinder-base",
+  "description": "A basic pillarjs server example.",
+  "version": "0.0.1",
+  "private": false,
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "config-multipaas": "^0.2.2",
+    "finalhandler": "^1.1.2",
+    "router": "^1.1.4",
+    "send": "^0.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/impupindersingh/ocm.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "main": "server.js"
+}
