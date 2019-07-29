@@ -1,2 +1,2 @@
-FROM ryanj/centos7-nodejs:current
-MAINTAINER ryanj <ryanj@redhat.com>
+FROM openshift/nodejs-010-centos7:latest
+MAINTAINER Pupinder <pupinder@t4e.io>

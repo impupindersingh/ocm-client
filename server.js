@@ -11,13 +11,13 @@ var app      = Router()
 app.get("/status", function (req, res) {
   res.statusCode = 200
   res.setHeader('Content-Type', 'application/json; charset=utf-8')
-  res.end("{status: 'ok GATEWAY is UP'}\n")
+  res.end("{status: 'ok Client is UP'}\n")
 })
 
 app.get("/", function (req, res) {
   res.statusCode = 200
   res.setHeader('Content-Type', 'application/json; charset=utf-8')
-  res.end("{status: 'Yeaaaaaa, Pupinder Singh, I think i'm in LOVE, and I am gateway..................................................'}\n")
+  res.end("{status: 'Yeaaaaaa, Pupinder Singh, and I am Client..................................................'}\n")
 })
 
 // Create server 
